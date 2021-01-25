@@ -6,12 +6,19 @@ namespace OperatorExercise
     {
         static void Main(string[] args)
         {
-            //Division(17, 4);
-            //AreaOfCircle();
-            var i = 3;
+            var a = 17;
+            var b = 4;
+            var add = a + b;
+            var sub = a - b;
+            var mult = a * b;
+            Console.WriteLine($"{a}+{b} is {add} \r\n{a}-{b} is {sub} \r\n{a}*{b} is {mult}");
+            Division(a, b);
+            AreaOfCircle();
+            //Thought exercise:
+            /*var i = 3;
             var j = 4;
             var k = ++i * j++;
-            Console.WriteLine(k);
+            Console.WriteLine(k);*/
 
         }
         // Step 1 division Method
